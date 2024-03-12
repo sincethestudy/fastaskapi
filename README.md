@@ -37,6 +37,7 @@ pip install -r requirements.txt
 ```
 
 5. **Set up the .env file**
+
 Copy the `.env.example` file to a new file named `.env`, and adjust the variables to fit your environment.
 
 6. **Run the project**
