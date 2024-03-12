@@ -1,5 +1,5 @@
 from typing import Union, List
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from pydantic import BaseModel
 from openai import AzureOpenAI
 from dotenv import load_dotenv
