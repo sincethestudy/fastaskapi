@@ -4,7 +4,7 @@
 #
 
 app = 'fastask'
-primary_region = 'sjc'
+primary_region = 'yyz'
 
 [build]
   builder = 'paketobuildpacks/builder:full'
@@ -12,7 +12,7 @@ primary_region = 'sjc'
 [http_service]
   internal_port = 8080
   force_https = true
-  auto_stop_machines = false
+  auto_stop_machines = true
   auto_start_machines = true
   min_machines_running = 1
   processes = ['app']
